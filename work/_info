@@ -8,36 +8,69 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/modeltech64_2019.4/examples
+Z0 dC:/modeltech64_2019.4/examples
 T_opt
 !s110 1591891400
 V8GLJkEcX984ecKoc1V1c32
 04 10 4 work half_adder fast 0
 =1-94de80c04eab-5ee255c8-1e2-2c88
-o-quiet -auto_acc_if_foreign -work work
-Z0 tCvgOpt 0
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
 n@_opt
-OL;O;2019.4;69
+Z3 OL;O;2019.4;69
+R0
+T_opt1
+!s110 1591892001
+V>dg:aa1a[fcZJn4;5mUnh0
+04 10 4 work full_adder fast 0
+=1-94de80c04eab-5ee25821-14c-15cc
+R1
+R2
+n@_opt1
+R3
+vfull_adder
+Z4 !s110 1591891981
+!i10b 1
+!s100 QXzWh6Q7k[BH]2V]Z4AWZ2
+!s11b =DV[1VISO;?]g^>_e:^zk2
+I6a<dBD8C2Bn=49^<2eaA33
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/Users/moham/Desktop/GitHub/Verilog_ModelSIM
+w1591891974
+8C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v
+FC:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v
+!i122 -1
+L0 1
+Z7 OL;L;2019.4;69
+r1
+!s85 0
+31
+Z8 !s108 1591891981.000000
+!s107 C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
 vhalf_adder
-!s110 1591891392
+R4
 !i10b 1
 !s100 Mkn3aL`CG4?1DQMH`a:JO2
 !s11b 1:PFF_f]D8?Oa2EEn4a_C2
 I;0SeZ5C:3z>]S4Gnec72n3
-VDg1SIo80bB@j0V0VzS_@n1
-dC:/Users/moham/Desktop/GitHub/Verilog_ModelSIM
+R5
+R6
 w1591891387
 8C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v
 FC:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v
 !i122 -1
 L0 1
-OL;L;2019.4;69
+R7
 r1
 !s85 0
 31
-!s108 1591891392.000000
+R8
 !s107 C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v|
 !i113 0
-o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
+R9
+R2
