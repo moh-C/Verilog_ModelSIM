@@ -1,4 +1,11 @@
-C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v
+C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/full_adder.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/moham/Desktop/GitHub/Verilog_ModelSIM/half_adder.v
 Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
 -- Compiling module half_adder
 
