@@ -1,21 +1,27 @@
 module Q2_verilog(input reset, sequence_in, clock, output detector_out);
+    // Parametrizing all the steps
     parameter Zero = 3'b000,
             One = 3'b001,
             OneZero = 3'b011,
             OneOne = 3'b010,
             OneZeroOne = 3'b110,
             OneOneZero = 3'b111;
-
+    
+    // decraling state registers
     reg [2:0] current_state, next_state;
 
+    // catching changes of clock n reset
     always @(posedge clock, posedge reset)
         begin
-        if(reset)
-            current_state <= Zero;
-        else
-            current_state <= next_state;
-        end 
-
+        // resets the sequence decoder
+            if(reset)
+                current_state <= Zero;
+            else
+                current_state <= next_state;
+        end
+        
+        // current state and sequence state changes
+        // the rest is about jumping from one state to the next
         always @(current_state, sequence_in)
             begin
             case(current_state) 
@@ -64,6 +70,8 @@ module Q2_verilog(input reset, sequence_in, clock, output detector_out);
                 default:next_state = Zero;
             endcase
         end
+    
+    // output from the input
     always @(current_state)
         begin 
         case(current_state) 
